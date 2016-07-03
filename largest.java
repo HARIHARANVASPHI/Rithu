@@ -16,15 +16,15 @@ public class largest {
         
        if(a>b && a>c)
        {
-           System.out.println(a+" is gratest among"+a+" " +b+ " "+c);
+           System.out.println(a+" is largest");
        }
        else if(b>c)
        {
-           System.out.println(b+" is gratest among"+a+" " +b+ " "+c); 
+           System.out.println(b+" is largest"); 
        }
        else
        {
-           System.out.println(c+" is gratest among"+a+" " +b+ " "+c);
+           System.out.println(c+" is largest");
        }
    }
 
