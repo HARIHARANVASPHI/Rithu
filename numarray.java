@@ -5,18 +5,18 @@ class numarr
 public static void main(String args[])
 {
 int i,j;
-int a[]=new int[5];
-Scanner s=new Scanner(System.in);
+int aa[]=new int[5];
+Scanner sc=new Scanner(System.in);
 System.out.println("enter the array in ascending order:");
  for(i=0;i<5;i++)
-a[i]=s.nextInt();
+aa[i]=sc.nextInt();
  System.out.println("Array elements are : ");
-        for (j=0;j<a.length;j++)
-            System.out.println(a[j]);
+        for (j=0;j<aa.length;j++)
+            System.out.println(aa[j]);
 System.out.println("enter any number from the array:");
-int n=s.nextInt();
+int n=sc.nextInt();
 
-if(n==a[n])
+if(n==aa[n])
 System.out.println("number is"+n);
 else
 System.out.println("number is not equal to index");
